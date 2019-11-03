@@ -1,0 +1,4 @@
+Observação: Caso esteja usando a versão nova do Selenium, será necessário configurar o GeckoDriver antes de executá-lo:
+System.setProperty("webdriver.gecko.driver", "ENDEREÇO DO EXECUTáVEL DO GECKODRIVER"); O endereço do executável será algo como C:\GeckoDriver\geckodriver.exe(coloquei o caminho relativo no teste). Caso nÃ£o o tenha instalado na sua mÃ¡quina, vocÃª pode baixa-lo aqui: https://github.com/mozilla/geckodriver/releases
+
+1-baixei mais especificamente do endereço "https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-win32.zip"
