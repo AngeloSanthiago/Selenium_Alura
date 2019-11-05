@@ -12,7 +12,7 @@ public class TesteAutomatizado {
 		System.setProperty("webdriver.gecko.driver", "bin/geckodriver-v0.26.0-win32/geckodriver.exe");
 		
 		WebDriver driver = new FirefoxDriver();
-		driver.get("http://www.google.com.br");
+		driver.get("http://www.bing.com");
 		
 		WebElement query = driver.findElement(By.name("q"));
 		query.sendKeys("Caelum");
