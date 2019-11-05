@@ -3,4 +3,19 @@
   <groupId>br.com.home</groupId>
   <artifactId>Selenium_Alura</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+ <dependencies>
+	<!-- <dependency>
+		<groupId>com.groupid.dependencia</groupId>
+		<artifactId>suadependencia</artifactId>
+		<version>1.0.0</version>
+		<scope>system</scope>
+		<systemPath>/user/usuario/projeto/suaDependencia.jar</systemPath>
+		
+	</dependency> -->
+	
+</dependencies>
+<!-- <build>
+<directory>bin/selenium-server-standalone-3.9.1.jar</directory>
+
+</build> -->
 </project>
