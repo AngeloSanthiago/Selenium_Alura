@@ -1,0 +1,1 @@
+Entrar no diretório "C:\Users\angel\Desktop\Alura\Selenium\leiloes" da aplicação e digitar "ant jetty.run"

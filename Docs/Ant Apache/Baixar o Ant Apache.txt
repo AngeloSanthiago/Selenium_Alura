@@ -1,0 +1,1 @@
+Para fazer o download, basta acessar o site do Apache Ant: http://ant.apache.org/. O link direto para download é esse aqui: http://ant.apache.org/bindownload.cgi
