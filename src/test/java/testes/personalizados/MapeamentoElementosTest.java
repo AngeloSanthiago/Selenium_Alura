@@ -1,5 +1,6 @@
 package testes.personalizados;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -10,6 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.JavascriptExecutor;;
 
 public class MapeamentoElementosTest {
 	private WebDriver driver;
@@ -35,5 +37,15 @@ public class MapeamentoElementosTest {
 		
 //		In case if your frameId is dynamic, and you only have one iframe, you can use something like:
 //		driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
+	}
+	@Test
+	public void mapeiaElemento_H1_DeIframe_Por_JavaScript() {
+		Path sampleFile = Paths.get("Web/Index.html");
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		driver.get(sampleFile.toUri().toString());
+		
+		js.executeScript("alert('Teste de JavaScript');");
+		
+		assertTrue("JavaScript enviado para execução com sucesso", true);
 	}
 }
